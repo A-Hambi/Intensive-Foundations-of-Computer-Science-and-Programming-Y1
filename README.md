@@ -1,6 +1,6 @@
 # Intensive-Foundations-of-Computer-Science-and-Programming-Y1
 
-**User Manual**
+*User Manual*
 
 **Overview**
 
