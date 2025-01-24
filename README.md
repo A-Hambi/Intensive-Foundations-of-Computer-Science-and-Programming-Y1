@@ -1,10 +1,8 @@
 # Intensive-Foundations-of-Computer-Science-and-Programming-Y1
 ---
 ## User Manual:
-
 ### **Overview**
 The Maths Quiz program is an interactive tool designed to help users practice simple arithmetic equations. It generates random math questions, checks user answers, and provides feedback on accuracy. Users can tailor their experience by selecting the number of questions they would like to answer and choose specific types of operations or a random selection.
-
 ## *Getting Started*
 ### Requirements
 *	A computer with Python installed (version 3.6 or later).
@@ -17,24 +15,18 @@ The Maths Quiz program is an interactive tool designed to help users practice si
 5.	Follow the on-screen instructions.
 ### Using the Program
 **Main Menu**
-Upon starting the program, the user will see:
-
-1. ![Screenshot 2024-12-25 161145](https://github.com/user-attachments/assets/622dc3af-ac1e-4f7e-9dcf-2e2a0e2f8fe4)
-
-If you enter a number outside this range, you’ll be prompted to try again.
-
-2. ![Screenshot 2024-12-25 161248](https://github.com/user-attachments/assets/4202a2c7-6000-404c-b275-a95394bd2029)
-
-**Question Type**: Choose the type of arithmetic questions by entering a number:
+Upon starting the program, the user will see:  
+1. ![Screenshot 2024-12-25 161145](https://github.com/user-attachments/assets/622dc3af-ac1e-4f7e-9dcf-2e2a0e2f8fe4)  
+If you enter a number outside this range, you’ll be prompted to try again.  
+2. ![Screenshot 2024-12-25 161248](https://github.com/user-attachments/assets/4202a2c7-6000-404c-b275-a95394bd2029)  
+**Question Type**: Choose the type of arithmetic questions by entering a number:  
 *	1 for Addition
 *	2 for Subtraction
 *	3 for Multiplication
 *	4 for Division
-*	5 for a random mix of all question types
-
-3. ![Screenshot 2024-12-25 161428](https://github.com/user-attachments/assets/3b36eb4c-f2af-463a-a906-35af6630583b)
-
-**User Response**: Here is an example of what a question will look like. Enter a number followed by the enter key to submit your answer.
+*	5 for a random mix of all question types  
+3. ![Screenshot 2024-12-25 161428](https://github.com/user-attachments/assets/3b36eb4c-f2af-463a-a906-35af6630583b)  
+**User Response**: Here is an example of what a question will look like. Enter a number followed by the enter key to submit your answer.  
 ### Answering Questions
 *	For each question, type your answer when prompted and press Enter.
 *	The program will indicate whether your answer is correct and update your score.
@@ -54,10 +46,9 @@ You can exit the program at any time by pressing Ctrl+C in the terminal.
 The Maths Quiz program consists of the following main components:
 
 ### 1. Symbol Mapping
-The Symbols dictionary maps operation names to built-in Python functions and their corresponding mathematical symbols. It includes operations like addition, subtraction, multiplication, and division, and serves as the backbone for generating equations dynamically. This modular approach simplifies the integration of additional operations in the future, such as exponentiation or modulus.
-![Screenshot 2024-12-25 153401](https://github.com/user-attachments/assets/dfbf3a69-365c-46c7-bcc9-49356a648651)
-
-* **Purpose**: Simplifies dynamic question generation and allows easy addition of new operations.
+The Symbols dictionary maps operation names to built-in Python functions and their corresponding mathematical symbols. It includes operations like addition, subtraction, multiplication, and division, and serves as the backbone for generating equations dynamically. This modular approach simplifies the integration of additional operations in the future, such as exponentiation or modulus.  
+![Screenshot 2024-12-25 153401](https://github.com/user-attachments/assets/dfbf3a69-365c-46c7-bcc9-49356a648651)  
+* **Purpose**: Simplifies dynamic question generation and allows easy addition of new operations.  
 ### 2. Functions
 **a) generate_equation**
 *	**Purpose:** Creates a math question tailored to the user-selected operation and evaluates responses.
